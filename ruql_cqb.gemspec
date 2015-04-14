@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'ruql_cqb'
-  s.version     = '0.0.0'
+  s.version     = '0.0.1'
   s.date        = '2015-04-13'
   s.summary     = "Ruby question language"
   s.description = "Ruby-embedded DSL for creating short-answer quiz questions"
