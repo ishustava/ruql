@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'ruql_cqb'
-  s.version     = '0.0.1'
-  s.date        = '2015-04-13'
+  s.version     = '0.0.3'
+  s.date        = '2015-04-14'
   s.summary     = "Ruby question language"
   s.description = "Ruby-embedded DSL for creating short-answer quiz questions"
   s.authors     = ["Armando Fox", "Aaron Zhang"]
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
     map { |s| "lib/ruql/renderers/#{s}.rb" }
   # add the templates
   s.files += Dir["templates/*.erb"]
-  s.executables << 'ruql'
+  s.executables << 'ruql_cqb'
   # dependencies
   s.add_runtime_dependency 'builder'
   s.add_runtime_dependency 'getopt'
